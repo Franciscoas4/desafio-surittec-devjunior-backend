@@ -1,0 +1,14 @@
+INSERT INTO cliente (nome, cpf) VALUES ('Felipe Antonio Silva', '82962994024');
+INSERT INTO cliente (nome, cpf) VALUES ('Leonardo Pontes', '50516006037');
+INSERT INTO cliente (nome, cpf) VALUES ('Christian Renner', '36867948022');
+INSERT INTO endereco (cep, logradouro, bairro, cidade, uf, complemento, id_cliente) VALUES ('72415605', 'Quadra 12 Conjunto E', 'Setor Sul (Gama)', 'Brasília', 'DF', '15', 1);
+INSERT INTO endereco (cep, logradouro, bairro, cidade, uf, complemento, id_cliente) VALUES ('72415600', 'Av. Rebouças', 'Quadra 12', 'Brasília', 'DF', null, 2);
+INSERT INTO endereco (cep, logradouro, bairro, cidade, uf, complemento, id_cliente) VALUES ('72415605', 'Quadra 10 Conjunto A ', 'Setor Sul (Gama) ', 'Brasília', 'DF', null, 3);
+INSERT INTO email (email, id_cliente) VALUES ('felipe@gmail.com', 1);
+INSERT INTO email (email, id_cliente) VALUES ('felipeas@email.com.br', 1);
+INSERT INTO email (email, id_cliente) VALUES ('leonardo@email.com', 2);
+INSERT INTO email (email, id_cliente) VALUES ('christain@email.com', 3);
+INSERT INTO telefone (tipo, numero, id_cliente) VALUES ('CEL', '61999999999', 1);
+INSERT INTO telefone (tipo, numero, id_cliente) VALUES ('RES', '6135564444', 2);
+INSERT INTO telefone (tipo, numero, id_cliente) VALUES ('COM', '6134845555', 2);
+INSERT INTO telefone (tipo, numero, id_cliente) VALUES ('RES', '6135857777', 3);
